@@ -17,6 +17,7 @@ export default function story() {
           alt='‌‌img'
           src='/images/about/cur.jpg'
           width={0}
+          loading='lazy'
           height={0}
           sizes='100vw'
           className='w-full h-auto max-w-[820px] mt-10'

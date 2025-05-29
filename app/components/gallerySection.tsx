@@ -41,6 +41,7 @@ export default function GallerySection() {
                     <Image
                         src={src}
                         alt={`photo${index + 1}`}
+                        loading='lazy'
                         width={500}
                         height={500} 
                         className=" object-cover  max-h-[35vw] md:max-h-[30vw] lg:max-h-[300px] w-full h-auto transition-opacity duration-1000 hover:opacity-50 cursor-pointer"

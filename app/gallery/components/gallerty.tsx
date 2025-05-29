@@ -30,6 +30,7 @@ const Gallery = ({ images }: { images: string[] }) => {
             <Image
               src={src}
               alt={`photo${i + 1}`}
+              loading='lazy'
               width={500}
               height={500}
               className="object-cover md:max-h-[30vw] lg:max-h-[300px] w-full h-auto transition-opacity duration-1000 hover:opacity-50 cursor-pointer"

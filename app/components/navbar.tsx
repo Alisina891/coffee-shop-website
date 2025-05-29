@@ -71,6 +71,7 @@ const handleClick = useCallback(() => {
           <Image
             src="/images/logo/2-2-2.jpg"
             alt="Logo"
+            loading='lazy'
             width={70}
             height={70}
             className="rounded-full h-[70px] w-[70px] min-w-[70px] object-cover"

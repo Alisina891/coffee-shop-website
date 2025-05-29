@@ -65,6 +65,7 @@ export default function HoverDiv({ isOpen, setIsOpen}) {
                       <Image
                         alt="img"
                         src={item.icon}
+                         loading='lazy'
                         width={20}
                         height={20}
                         className="ml-5 cursor-pointer w-[20px]"

@@ -30,6 +30,7 @@ export default function story() {
                             src={src.src}
                             alt={`photo${index + 1}`}
                             width={500}
+                            loading='lazy'
                             height={500} 
                             className=" object-cover  max-h-[35vw] md:max-h-[30vw] lg:max-h-[300px] w-full h-auto transition-opacity duration-1000 hover:opacity-50 cursor-pointer"
                             priority={index < 3}

@@ -60,6 +60,7 @@ export default function footer() {
             alt='Facebook'
             src='/images/logo/face.png'
             width={30}
+            loading='lazy'
             height={30}
             className=' cursor-pointer'
             />
@@ -67,6 +68,7 @@ export default function footer() {
             <Image
             alt='Facebook'
             src='/images/logo/insta.png'
+            loading='lazy'
             width={30}
             height={30}
             className='cursor-pointer'

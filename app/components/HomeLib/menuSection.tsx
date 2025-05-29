@@ -30,6 +30,7 @@ export default function menuSection() {
               <Image
               src="/images/menu-img.jpg"
               alt="menu"
+               loading='lazy'
               width={1500}
               height={1500}
               className="object-cover w-full md:w-1/2 h-[300px] md:h-[390px] lg:h-[430px] "

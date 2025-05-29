@@ -13,6 +13,7 @@ export default function HomeSection() {
            <Image
             src="/images/menu/bg-menu.jpg"
             alt="backG"
+            loading='lazy'
             width={1500}
             height={2200}
             className="object-cover"

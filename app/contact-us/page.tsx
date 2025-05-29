@@ -17,6 +17,7 @@ export default function page() {
                 <Image
                 src="/images/logo/logo.jpg"
                 alt="Logo"
+                loading='lazy'
                 width={90}
                 height={90}
                 className="rounded-full h-[80px] w-[90px] min-w-[220px] object-cover"
@@ -27,6 +28,7 @@ export default function page() {
                <Image
                 src="/images/contact/map.jpg"
                 alt="backG"
+                loading='lazy'
                 width={1500}
                 height={2200}
                 className="object-cover"

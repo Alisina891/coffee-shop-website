@@ -49,6 +49,7 @@ export default function endSection() {
                     src={news.image}
                     alt="news"
                     width={230}
+                    loading='lazy'
                     height={200}
                     className="object-cover  w-[1200px] md:w-[230px] h-[290px] sm:h-[480px] md:h-[130px] transition-opacity duration-1000 hover:opacity-50"
                 />
