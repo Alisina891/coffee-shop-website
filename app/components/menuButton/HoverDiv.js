@@ -32,12 +32,12 @@ export default function HoverDiv({ isOpen, setIsOpen}) {
 
   // لیست آیتم‌های منو
   const navItems = [
-    { key: 'home', label: 'Home', href: '/', icon: '/images/Menu/hom1.png' },
-    { key: 'about', label: 'About', href: '/about', icon: '/images/Menu/about.png' },
-    { key: 'menus', label: 'Menus', href: '/menu', icon: '/images/Menu/menu.png' },
-    { key: 'faqs', label: "FAQ'S", href: '/frequently-asked-question', icon: '/images/Menu/question.png' },
-    { key: 'gallery', label: 'Gallery', href: '/gallery', icon: '/images/Menu/gallery.png' },
-    { key: 'contact', label: 'Contact', href: '/contact-us', icon: '/images/Menu/contact.png' },
+    { key: 'home', label: 'Home', href: '/', icon: '/images/menu/hom1.png' },
+    { key: 'about', label: 'About', href: '/about', icon: '/images/menu/about.png' },
+    { key: 'menus', label: 'Menus', href: '/menu', icon: '/images/menu/menu.png' },
+    { key: 'faqs', label: "FAQ'S", href: '/frequently-asked-question', icon: '/images/menu/question.png' },
+    { key: 'gallery', label: 'Gallery', href: '/gallery', icon: '/images/menu/gallery.png' },
+    { key: 'contact', label: 'Contact', href: '/contact-us', icon: '/images/menu/contact.png' },
   ];
 
   
