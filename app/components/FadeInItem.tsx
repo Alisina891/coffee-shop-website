@@ -24,5 +24,6 @@ export default function FadeInSection({ children , delay = 0 }: Props) {
     >
       {children}
     </motion.div>
+
   );
 }

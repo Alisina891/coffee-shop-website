@@ -17,11 +17,15 @@ export default function menuSection() {
                     From rich coffees and refreshing drinks to fresh pastries and light snacks — everything is made with care to delight your day.
                    </p>
                   </FadeInItem>
+
                   <FadeInItem delay={1}>
-                   <Link href='/menus'
-                   
-                     className="text-amber-700 pb-6 mb-5 pt-10  border-b border-amber-700 w-[150px] h-7  rounded hover:text-gray-600 hover:border-gray-600 transition-all duration-300 text-sm ">VIEW MENUS</Link>
-                   </FadeInItem>
+                    <Link
+                        href="/menu"
+                        className="inline-block text-amber-700 pb-2 mb-5 mt-10 border-b border-amber-700 w-[150px] h-7 rounded hover:text-gray-600 hover:border-gray-600 transition-all duration-300 text-sm text-center"
+                      >
+                        VIEW MENUS
+                    </Link>
+                  </FadeInItem>
               </div>
               <Image
               src="/images/menu-img.jpg"

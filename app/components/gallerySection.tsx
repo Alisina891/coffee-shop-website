@@ -1,5 +1,6 @@
 import FadeInSection from './FadeInItem';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const images = [
   "/images/gallery/1.jpg",
@@ -36,21 +37,23 @@ export default function GallerySection() {
           <div className="columns-3 gap-2 w-full max-w-[800px] mt-10 mb-5 px-3">
             {images.map((src, index) => (
                 <div key={index} className="break-inside-avoid mb-4 rounded-lg overflow-hidden">
-                <Image
-                    src={src}
-                    alt={`photo${index + 1}`}
-                    width={500}
-                    height={500} 
-                    className=" object-cover  max-h-[35vw] md:max-h-[30vw] lg:max-h-[300px] w-full h-auto transition-opacity duration-1000 hover:opacity-50 cursor-pointer"
-                    priority={index < 3}
-                />
+                  <Link href='/gallery'>
+                    <Image
+                        src={src}
+                        alt={`photo${index + 1}`}
+                        width={500}
+                        height={500} 
+                        className=" object-cover  max-h-[35vw] md:max-h-[30vw] lg:max-h-[300px] w-full h-auto transition-opacity duration-1000 hover:opacity-50 cursor-pointer"
+                        priority={index < 3}
+                    />
+                    </Link>
                 </div>
             ))}
            </div>
 
         <FadeInSection delay={0.2}>
-         <button className="text-amber-700  pb-5 mb-10 px-3 border-b border-amber-700 w-[200px] h-7  rounded hover:text-gray-600 hover:border-gray-600 transition-all duration-700 text-sm ">VIEW GALLERY
-         </button>
+         <Link href='/gallery' className=" flex  justify-center items-center text-amber-700   mb-10 px-3 border-b border-amber-700 w-[200px] h-7  rounded hover:text-gray-600 hover:border-gray-600 transition-all duration-700 text-sm ">VIEW GALLERY
+         </Link>
         </FadeInSection>
     </div>
   )

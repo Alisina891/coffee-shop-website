@@ -23,7 +23,7 @@ export default function endSection() {
     <div className='flex  flex-col items-center
     justify-center  bg-stone-300 mt-8 md:mt-14 w-full'>     
         <FadeInSection delay={0}>
-        <h3 className='text-gray-500 pt-10 tracking-wider text-sm '>WHAT'S ON       
+        <h3 className='text-gray-500 pt-10 tracking-wider text-sm '>WHAT&#39;S ON       
         </h3>
         </FadeInSection>
 
@@ -52,20 +52,16 @@ export default function endSection() {
                     height={200}
                     className="object-cover  w-[1200px] md:w-[230px] h-[290px] sm:h-[480px] md:h-[130px] transition-opacity duration-1000 hover:opacity-50"
                 />
-                <h3 className="absolute inset-0 flex items-center justify-center text-center text-amber-700 text-xl md:text-sm font-semibold uppercase opacity-0 transition-opacity duration-1000 hover:opacity-100 bg-black px-5 bg-opacity-70 cursor-pointer">
+                <h3 className="absolute inset-0 flex items-center justify-center text-center text-amber-700 text-xl md:text-sm font-semibold uppercase opacity-0 transition-opacity duration-1000 hover:opacity-100 bg-black px-5 bg-opacity-70 ">
                     {news.title}
                 </h3>
                 </div>
 
-                <h3 className="text-amber-700 mt-5 uppercase hover:underline-offset-4 hover:underline  cursor-pointer w-full  text-start">{news.title}</h3>
+                <h3 className="text-amber-700 mt-5 uppercase hover:underline-offset-4 hover:underline   w-full  text-start">{news.title}</h3>
                 <p className="text-gray-600 text-sm mt-2 pb-9">{news.description}</p>
             </div>
             ))}
         </div>
-        <FadeInSection delay={0.2}>
-         <button className="text-amber-700  pb-5 mb-10 px-3 border-b border-amber-700 w-[200px] h-7  rounded hover:text-gray-600 hover:border-gray-600 transition-all duration-700 text-sm ">MAKE A RESERVATION
-         </button>
-        </FadeInSection>
     </div>
   )
 }

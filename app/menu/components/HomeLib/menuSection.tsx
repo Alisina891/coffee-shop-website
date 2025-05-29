@@ -10,7 +10,7 @@ export default function menuSection() {
     <div className=" max-md:flex-col-reverse flex justify-center items-center w-full ">
               <div className=" md:w-1/2 max-md:py-10 md:h-[390px] lg:h-[430px]  flex  bg-stone-400 items-center justify-center flex-col text-center max-md:w-full">
                   <FadeInItem delay={0}>
-                    <h3 className="font-serif text-amber-700 text-4xl ">Order separately</h3>
+                    <h3 className="font-serif text-amber-700 text-4xl uppercase ">Order separately</h3>
                   </FadeInItem>
                   
                   <FadeInItem delay={0.5}>

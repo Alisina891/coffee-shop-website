@@ -9,16 +9,6 @@ export default function HomeSection() {
 
   return (
     <div className="pt-20">
-      <div className="flex justify-center bg-stone-700 items-center w-full md:hidden">
-            <Image
-            src="/images/logo/logo.jpg"
-            alt="Logo"
-            width={90}
-            height={90}
-            className="rounded-full h-[80px] w-[90px] min-w-[220px] object-cover"
-            />
-           
-        </div>
         <div className="w-full flex flex-col items-center justify-center mt-12 bg-stone-300 md:px-[58px] md:pt-[58px] ">
            <Image
             src="/images/menu/bg-menu.jpg"

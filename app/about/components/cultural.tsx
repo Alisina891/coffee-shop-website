@@ -32,7 +32,7 @@ export default function story() {
           <FadeInSection delay={0.5}>
           <p className="text-[11px] text-gray-600 md:columns-2 gap-4 pb-10">
             
-          As proud and long-standing advocates of our city's cultural scene, we are honoured to collaborate with some of its most esteemed institutions — including the Grand Theatre, the Contemporary Art Museum, the International Film Showcase, and the Annual City Festival.
+          As proud and long-standing advocates of our city&#39;s cultural scene, we are honoured to collaborate with some of its most esteemed institutions — including the Grand Theatre, the Contemporary Art Museum, the International Film Showcase, and the Annual City Festival.
 
           Together, these partnerships help shape the cultural heartbeat of our community, fostering a legacy of innovation, inclusivity, and unforgettable experiences for all.
 

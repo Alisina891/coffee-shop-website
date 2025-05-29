@@ -4,14 +4,14 @@ import EventSection from "./HomeLib/eventSection";
 import DrinkSection from "./HomeLib/drinkSection";
 import Image from "next/image"
 import FadeInItem from "./FadeInItem";
-
+import VideoSection from './HomeLib/video';
 export default function HomeSection() {
 
   return (
     <div className="pt-20">
       <div className="flex justify-center bg-stone-700 items-center w-full md:hidden">
             <Image
-            src="/images/logo/logo.jpg"
+            src="/images/logo/2-2-2.jpg"
             alt="Logo"
             width={90}
             height={90}
@@ -20,14 +20,7 @@ export default function HomeSection() {
            
         </div>
         <div className="w-full flex flex-col items-center justify-center mt-12 bg-stone-300 md:px-[58px] md:pt-[58px] ">
-           <Image
-            src="/images/bg5.jpg"
-            alt="backG"
-            width={1500}
-            height={2200}
-            className="object-cover"
-            />
-
+           <VideoSection />
             <div
             
              className="flex flex-col justify-center items-center w-full ">
